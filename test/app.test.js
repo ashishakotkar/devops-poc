@@ -5,6 +5,6 @@ describe('GET /', () => {
     const res = await request('https://devops-poc.onrender.com')  // Use the live URL
       .get('/');  // Send a GET request to the root endpoint
     expect(res.status).toBe(200);
-    expect(res.text).toBe('Hello, DevOps POC!');
+    expect(res.text).toBe('Hello, DevOps POCC!');
   });
 });
